@@ -1,3 +1,6 @@
+# Double Doubble Dominos Referee using Computer Vision SIFT and ORB keypoints
+This project leverages computer vision techniques to automate the role of a referee in the game of double-double dominos. The primary goal is to align images of dominos with a template, detect key points and features using SIFT and ORB algorithms, and then determine the best matches for scoring the game.
+
 Please check the instructions below on how to run the program, it is relatively simple.  
 First, to align the provided images, I used Orb key points and various openCV algorithms, which were inspired mainly by the labs and partially from the openCV official documentation.  
 Then I wrote a function that searches for jpg/jpeg images inside a given directory and applies the sift transformation.  
